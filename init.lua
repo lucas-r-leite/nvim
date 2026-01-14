@@ -7,9 +7,3 @@ vim.cmd([[
     tnoremap <Esc> <C-\><C-n>
   endif
 ]])
-
-vim.filetype.add({
-  extension = {
-    curl = "curl",
-  },
-})
